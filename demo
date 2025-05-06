@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        float f1=1.6f;
+        float f2=1.7f;
+        float p=f1*f2;
+        System.out.println("The product is: " +p);
+    }
+}
