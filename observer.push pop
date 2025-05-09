@@ -1,0 +1,21 @@
+import java.util.Stack;
+public class Main{
+    public static void main(String[] args){
+        Stack<Integer> ECE = new Stack<>();
+        ECE.push(42);
+        ECE.push(65);
+        ECE.push(12);
+        ECE.push(14);
+        ECE.push(6);
+        System.out.println(ECE);
+       
+        
+    System.out.println("the pop first element is: "+ECE.pop());
+    System.out.println("the pop Second element is: "+ECE.pop());
+    System.out.println("the pop Third element is: "+ECE.pop());
+    System.out.println("the pop fourth element is: "+ECE.pop());
+    System.out.println("the pop fifth element is: "+ECE.pop());
+
+
+}
+}
