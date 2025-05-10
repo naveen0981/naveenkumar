@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main{
+    public static int methoda(int a){
+        if(a<=1){
+            return 1;
+        }
+        else{
+            return a*methodb(a-1);
+        }
+    }
+    public static int methodb(int a){
+        if(a<=1){
+            return 1;
+        }
+        else{
+            return a*methoda(a-1);
+        }
+    }
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.println(methoda(a));
+    }
+}
