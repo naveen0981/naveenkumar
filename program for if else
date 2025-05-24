@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your Salary");
+        int Salary=sc.nextInt();
+        System.out.println("Enter your age");
+        int age=sc.nextInt();
+        if(Salary>=2000||age<25){
+            System.out.println("Eligible for Vote");
+            System.out.println("Enter your loan");
+            int loan=sc.nextInt();
+            if(loan<=50000){
+                System.out.println("Available loan");
+            }
+            else{
+                System.out.println("Not Available for loan");
+            }
+        }
+        else{
+            System.out.println("Not eligible for Vote");
+        }
+    }
+}
